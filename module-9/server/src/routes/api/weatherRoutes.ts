@@ -1,5 +1,7 @@
 import { Router } from 'express';
 const router = Router();
+import dotenv from 'dotenv';
+dotenv.config();
 
  import HistoryService from '../../service/historyService.js';
  import WeatherService from '../../service/weatherService.js';
@@ -7,6 +9,8 @@ const router = Router();
 // TODO: POST Request with city name to retrieve weather data
 router.post('/', (req, res) => {
   // TODO: GET weather data from city name
+  const city = req.body.city;
+  
   // TODO: save city to search history
 });
 

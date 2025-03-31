@@ -1,5 +1,7 @@
 import { Router } from 'express';
 const router = Router();
+import dotenv from 'dotenv';
+dotenv.config();
 
 import apiRoutes from './api/index.js';
 import htmlRoutes from './htmlRoutes.js';

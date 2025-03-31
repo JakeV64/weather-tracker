@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+import  dotenv from 'dotenv';
 dotenv.config();
 
 // TODO: Define an interface for the Coordinates object
@@ -8,12 +8,8 @@ dotenv.config();
 // TODO: Complete the WeatherService class
 class WeatherService {
   // TODO: Define the baseURL, API key, and city name properties
-  // TODO: Create fetchLocationData method
-  // private async fetchLocationData(query: string) {}
-  // TODO: Create destructureLocationData method
-  // private destructureLocationData(locationData: Coordinates): Coordinates {}
-  // TODO: Create buildGeocodeQuery method
-  // private buildGeocodeQuery(): string {}
+
+  
   // TODO: Create buildWeatherQuery method
   // private buildWeatherQuery(coordinates: Coordinates): string {}
   // TODO: Create fetchAndDestructureLocationData method
